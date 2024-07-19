@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { items } from "./Data";
 import Product from "./Product";
-import { ToastContainer, toast, Bounce } from "react-toastify"; // Ensure Bounce is imported
+import { ToastContainer, toast, Bounce } from "react-toastify"; 
 import "react-toastify/dist/ReactToastify.css";
 
 const ProductDetail = ({ cart, setCart }) => {
@@ -35,7 +35,7 @@ const ProductDetail = ({ cart, setCart }) => {
       draggable: true,
       progress: undefined,
       theme: "dark",
-      transition: Bounce, // Corrected syntax
+      transition: Bounce, 
     });
   };
 
@@ -52,7 +52,7 @@ const ProductDetail = ({ cart, setCart }) => {
         draggable
         pauseOnHover
         theme="dark"
-        transition={Bounce} // Corrected syntax
+        transition={Bounce} 
       />
       <div className="container con">
         <div className="img">
